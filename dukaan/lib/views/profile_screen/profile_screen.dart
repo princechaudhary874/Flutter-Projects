@@ -1,0 +1,11 @@
+import 'package:dukaan/constants/consts.dart';
+class ProfileScreen extends StatelessWidget {
+  const ProfileScreen({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      color: Colors.orange,
+    );
+  }
+}

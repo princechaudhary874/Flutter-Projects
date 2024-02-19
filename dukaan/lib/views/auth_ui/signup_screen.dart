@@ -3,8 +3,6 @@ import 'package:dukaan/common_widgets/bg_widget.dart';
 import 'package:dukaan/common_widgets/custom_textfield.dart';
 import 'package:dukaan/common_widgets/our_buttons.dart';
 import 'package:dukaan/constants/consts.dart';
-import 'package:dukaan/screens/auth_ui/login/login.dart';
-import 'package:flutter/material.dart';
 
 class SignUpScreen extends StatefulWidget {
   const SignUpScreen({super.key});

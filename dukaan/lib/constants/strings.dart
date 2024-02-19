@@ -17,3 +17,14 @@ const privacypolic = "Privacy Policy";
 const registerwithno = "or, Register with phone number";
 const signUp = "Sign Up";
 const termsAndCond = "terms & conditions";
+
+// home strings
+const home = "Home", category = "Categories", acc = "Account", cart = "Carts";
+// home screen string
+const searchAny = "Search anything...",
+    todayDeal = "Today's Deal",
+    flashSale = "Flash Sale",
+    topSeller = "Top Seller",
+    brand = "Brand",
+    topCategories = "Top Categories",
+    featuredCategories="Featured Categories";

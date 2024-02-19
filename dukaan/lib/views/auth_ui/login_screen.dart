@@ -5,6 +5,7 @@ import 'package:dukaan/common_widgets/our_buttons.dart';
 import 'package:dukaan/constants/consts.dart';
 import 'package:dukaan/constants/list.dart';
 import 'package:dukaan/views/auth_ui/signup_screen.dart';
+import 'package:dukaan/views/home_screen/home.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});
@@ -43,7 +44,9 @@ class LoginScreen extends StatelessWidget {
                 5.heightBox,
                 // Log In button
                 ourButton(
-                  onPress: () {},
+                  onPress: () {
+                    Get.to(() => const Home());
+                  },
                   color: redColor,
                   textColor: whiteColor,
                   title: logIn,
@@ -56,7 +59,7 @@ class LoginScreen extends StatelessWidget {
                 ourButton(
                   onPress: () {
                     // navigate to sign up page
-                    Get.to(() =>const SignUpScreen());
+                    Get.to(() => const SignUpScreen());
                   },
                   color: lightGolden,
                   textColor: whiteColor,
